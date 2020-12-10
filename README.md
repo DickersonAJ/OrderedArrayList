@@ -8,10 +8,10 @@ public NoNullArrayList() {
 
 ***make sure that get never returns null***
 
-resize by 1 to not get nulls
+resize by 1 to not get() nulls
 
 for the adds and set, check
 if(element == null){
   throw new IllegalArgumentException();
 }
-ArrayList<T>
+ArrayList<T>.add(element);
