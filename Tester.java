@@ -6,6 +6,11 @@ public class Tester{
     System.out.println(words);
     NoNullArrayList<double[]> nums = new NoNullArrayList<double[]>(20);
     System.out.println(words);
+
+    words.add("hello");
+    System.out.println(words);
+    words.add(null);
+    System.out.println(words);
   }
 
 }
