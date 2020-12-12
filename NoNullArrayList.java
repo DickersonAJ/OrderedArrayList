@@ -24,8 +24,11 @@ public class NoNullArrayList<T> extends ArrayList<T>{
     super.add(index, element);
   }
 
-  /*public void set(int index, String element){
-
-  }*/
+  public T set(int index, T element){
+    if (element == null) {
+      throw new IllegalArgumentException("No null values are allowed in a NoNullArrayList");
+    }
+    return super.set(index, element);
+  }
 
 }

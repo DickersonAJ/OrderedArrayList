@@ -14,8 +14,14 @@ public class Tester{
 
     words.add(0, "greetings");
     System.out.println(words);
-    words.add(1, null);
+    //words.add(1, null);
+    //System.out.println(words);
+
+    words.set(1, "salutations");
     System.out.println(words);
+    words.set(1, null);
+    System.out.println(words);
+
   }
 
 }
