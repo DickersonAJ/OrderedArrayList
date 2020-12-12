@@ -19,9 +19,13 @@ public class Tester{
 
     words.set(1, "salutations");
     System.out.println(words);
-    words.set(1, null);
-    System.out.println(words);
+    //words.set(1, null);
+    //System.out.println(words);
 
+    OrderedArrayList<String> sophisticated = new OrderedArrayList<String>();
+    System.out.println(sophisticated);
+    OrderedArrayList<String> deluxe = new OrderedArrayList<String>(30);
+    System.out.println(sophisticated);
   }
 
 }
