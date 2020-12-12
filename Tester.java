@@ -29,7 +29,7 @@ public class Tester{
     sophisticated.add("alpaca");
     sophisticated.add("dog");
     sophisticated.add("cat");
-    sophisticated.add("cat");
+    sophisticated.add(0, "cat");
     System.out.println(sophisticated);
   }
 

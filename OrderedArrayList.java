@@ -22,9 +22,9 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
     return true;
   }
 
-  /*public void add(int index, T element){
-
-  }*/
+  public void add(int index, T element){
+    super.add(place(element), element);
+  }
 
   /*public T set(int index, T element){
 
