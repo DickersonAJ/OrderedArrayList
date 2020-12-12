@@ -9,7 +9,12 @@ public class Tester{
 
     words.add("hello");
     System.out.println(words);
-    words.add(null);
+    //words.add(null);
+    //System.out.println(words);
+
+    words.add(0, "greetings");
+    System.out.println(words);
+    words.add(1, null);
     System.out.println(words);
   }
 

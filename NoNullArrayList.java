@@ -17,11 +17,14 @@ public class NoNullArrayList<T> extends ArrayList<T>{
     return true;
   }
 
-  /*public String set(int index, String element){
+  public void add(int index, T element){
+    if (element == null) {
+      throw new IllegalArgumentException("No null values are allowed in a NoNullArrayList");
+    }
+    super.add(index, element);
+  }
 
-  }*/
-
-  /*public void add(int index, String element){
+  /*public void set(int index, String element){
 
   }*/
 
