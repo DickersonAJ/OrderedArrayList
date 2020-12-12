@@ -25,6 +25,11 @@ public class Tester{
     OrderedArrayList<String> sophisticated = new OrderedArrayList<String>();
     System.out.println(sophisticated);
     OrderedArrayList<String> deluxe = new OrderedArrayList<String>(30);
+    System.out.println(deluxe);
+    sophisticated.add("alpaca");
+    sophisticated.add("dog");
+    sophisticated.add("cat");
+    sophisticated.add("cat");
     System.out.println(sophisticated);
   }
 
