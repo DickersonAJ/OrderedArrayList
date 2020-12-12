@@ -30,7 +30,7 @@ public class Tester{
     sophisticated.add("dog");
     sophisticated.add("cat");
     sophisticated.add(0, "cat");
-    sophisticated.set(3, "bat");
+    sophisticated.set(2, "bat");
     System.out.println(sophisticated);
   }
 
